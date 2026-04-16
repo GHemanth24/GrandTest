@@ -1,0 +1,86 @@
+body{
+    background: linear-gradient(to right, orange, purple);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#container{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.card{
+    width: 300px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px black;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+    padding-top: 100px;
+}
+
+.top{
+    width: 200%;
+    height: 200px;
+    position: absolute;
+    top: -100px;
+    left: -50%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: white;
+    font-size: 4rem;
+    padding-bottom: 20px;
+}
+
+.card:nth-child(1) .top{
+    background: orange;
+}
+
+.card:nth-child(2) .top{
+    background: crimson;
+}
+
+.card:nth-child(3) .top{
+    background: purple;
+}
+
+.paragraph{
+    padding: 20px;
+    color: gray;
+   
+}
+
+.btn{
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    margin: 20px auto 30px;
+    display: block;
+    cursor: pointer;
+}
+
+.card:nth-child(1) .btn{
+    background: orange;
+}
+
+.card:nth-child(2) .btn{
+    background: crimson;
+}
+
+.card:nth-child(3) .btn{
+    background: purple;
+}
+
+
+@media (max) {
+    
+}
